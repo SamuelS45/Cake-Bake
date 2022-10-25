@@ -11,7 +11,7 @@ const Nav = ()=>{
         <>
         <nav>
             <button onClick={()=>{
-                navigate('/');
+                navigate('/home');
             }} className="home-btn">
                 <div className="logo">
                     <MdCake size={'100'}/>
