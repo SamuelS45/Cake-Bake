@@ -8,7 +8,7 @@ const Home = ()=>{
     return(
         <>
         <div className="panel-home">
-            <h1>Feels Like Home!!</h1>
+            <h1>Feels Like Home</h1>
             {/* <img src={Images.cakeChocolate} ></img> */}
         </div>
         <div className="panel-info">
