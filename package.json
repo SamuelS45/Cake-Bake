@@ -1,8 +1,8 @@
 {
-  "name": "learning-react",
+  "name": "cake-bake",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samuels45.github.io/home",
+  "homepage": "https://samuels45.github.io/Cake-Bake",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
