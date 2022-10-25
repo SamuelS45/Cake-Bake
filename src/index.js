@@ -17,7 +17,7 @@ export default function App(){
         <Nav/>
             <Routes>
                 <Route path='/home'>
-                    <Route path="/home"element={<Home/>}/>
+                    <Route index element={<Home/>}/>
                     <Route path="feed" element={<Feed/>}/>
                 </Route>
             </Routes>
