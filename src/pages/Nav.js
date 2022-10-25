@@ -27,7 +27,7 @@ const Nav = ()=>{
                     <Link style={noneUnderline} to='/'><h1 className="home">Home</h1></Link>
                 </li>
                 <li> 
-                    <Link style={noneUnderline} to='/feed'><h1 className="feed">Feed</h1></Link>
+                    <Link style={noneUnderline} to='/products'><h1 className="feed">Products</h1></Link>
                 </li>
             </ul> 
         </nav>

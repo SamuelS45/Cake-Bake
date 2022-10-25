@@ -14,7 +14,7 @@
 }
 
 .panel-info{
-    padding: 2rem;
+    /* padding: 2rem; */
     display: flex;
     justify-content: center;
     background-color: lightgoldenrodyellow;
@@ -25,6 +25,7 @@
 }
 
 .info{
+    margin: 8%;
     /* color: aqua; */
 }
 h1{
@@ -33,4 +34,25 @@ h1{
 .info-img{
     height: 50rem;
     border-radius: 5rem;
+}
+
+.text{
+    height:12rem ;
+}
+
+.btn{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 5rem;
+    font-size: 100%;
+    background-color: white;
+    border: none;
+    transition: .2s;
+    border-radius: 5rem;
+}
+
+.btn:hover{
+    color: white;
+    border-radius: 2rem;
+    background-color:rgb(138, 138, 138); ;
 }

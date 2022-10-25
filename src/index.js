@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { HashRouter as HRouter, Routes, Route } from "react-router-dom";
 import Nav from './pages/Nav';
 import Home from './pages/Home';
-import Feed from './pages/Feed';
+import Products from './pages/Products';
 import Footer from './pages/Footer';
 import './index.css'
 
@@ -18,7 +18,7 @@ export default function App(){
             <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route index element={<Home/>}/>
-                    <Route path="/feed" element={<Feed/>}/>
+                    <Route path="/products" element={<Products/>}/>
             </Routes>
         </HRouter>
         <Footer/>

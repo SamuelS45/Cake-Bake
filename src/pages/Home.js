@@ -2,9 +2,10 @@ import React from "react";
 import Images from './images/Images'
 import './home.css'
 import LoremIpsum from "react-lorem-ipsum";
-
+import {useNavigate} from 'react-router-dom'
 
 const Home = ()=>{
+    let navigate = useNavigate();
     return(
         <>
         <div className="panel-home">
@@ -15,14 +16,16 @@ const Home = ()=>{
             <div className="info">
                 <img className="info-img" src={Images.cakeIcing}></img>
                 <h1>Cakes</h1>
-                <p><LoremIpsum p={1}/></p>
-                <button>Products</button>
+                <p className="text"><LoremIpsum p={1}/></p>
+                <button className="btn" onClick={()=>{
+                    navigate('/products')
+                }}>Products</button>
             </div>
             <div className="info">
                 <img className="info-img" src={Images.cupcake}></img>
                 <h1>Cupcake</h1>
-                <p><LoremIpsum p={1}/></p>
-                <button>Contact Us</button>
+                <p className="text"><LoremIpsum p={1}/></p>
+                <button className="btn">Contact Us</button>
             </div>
         </div>
         </>
