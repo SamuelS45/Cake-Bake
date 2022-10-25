@@ -11,7 +11,7 @@ const Nav = ()=>{
         <>
         <nav>
             <button onClick={()=>{
-                navigate('/home');
+                navigate('/');
             }} className="home-btn">
                 <div className="logo">
                     <MdCake size={'100'}/>
@@ -24,7 +24,7 @@ const Nav = ()=>{
             </button>
             <ul className="nav-ul">
                 <li> 
-                    <Link style={noneUnderline} to='/home'><h1 className="home">Home</h1></Link>
+                    <Link style={noneUnderline} to='/'><h1 className="home">Home</h1></Link>
                 </li>
                 <li> 
                     <Link style={noneUnderline} to='/feed'><h1 className="feed">Feed</h1></Link>
