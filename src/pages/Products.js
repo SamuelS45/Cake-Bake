@@ -1,11 +1,12 @@
 import React from "react";
-// import './style.css'
+import './products.css'
+import BasicGrid from "../components/Grid";
 
 const Products = ()=>{
     return(
         <div className="panel">
-
-        <h1>Products</h1>
+        <br></br>
+        <BasicGrid/>
         </div>
     )
 }

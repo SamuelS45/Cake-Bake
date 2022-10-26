@@ -1,0 +1,11 @@
+.panel{
+    margin: 0px;
+    width: 100%;
+    height:max-content;
+    background-color: rgb(214, 214, 214);
+}
+
+.container{
+    width: 100%;
+}
+
