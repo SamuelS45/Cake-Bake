@@ -4,8 +4,8 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import { flexbox } from "@mui/system";
-import { Hidden } from "@mui/material";
+// import { flexbox } from "@mui/system";
+// import { Hidden } from "@mui/material";
 import LoremIpsum from "react-lorem-ipsum";
 import './grid.css'
 
@@ -49,28 +49,28 @@ return (
     <Grid container rowSpacing={3} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid xs={6}>
             <Item className="item">
-                <img style={style} src={Images.cakeIcing}></img>
+                <img style={style} src={Images.cakeIcing} alt='Cake Icing'></img>
                 <h1>Wedding Cake</h1>
                 <p><LoremIpsum p={1}/></p>
             </Item>
         </Grid>
         <Grid xs={6}>
             <Item className="item">
-                <img style={style} src={Images.cakeChocolate}></img>
+                <img style={style} src={Images.cakeChocolate} alt='Chocolate Cake'></img>
                 <h1>Cake</h1>
                 <p><LoremIpsum p={1}/></p>
             </Item>
         </Grid>
         <Grid xs={6}>
             <Item className="item">
-                <img style={style} src={Images.cupcake}></img>
+                <img style={style} src={Images.cupcake} alt=' Cupcake'></img>
                 <h1>Cupcake</h1>
                 <p><LoremIpsum p={1}/></p>
             </Item>
         </Grid>
         <Grid xs={6}>
             <Item className="item">
-                <img style={style} src={Images.pie}></img>
+                <img style={style} src={Images.pie} alt=' Pie'></img>
                 <h1>Pie</h1>
                 <p><LoremIpsum p={1}/></p>
             </Item>

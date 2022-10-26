@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { HashRouter as HRouter, Routes, Route } from "react-router-dom";
-import Nav from './pages/Nav';
+import Nav from './components/Nav';
 import Home from './pages/Home';
 import Products from './pages/Products';
-import Footer from './pages/Footer';
+import Footer from './components/Footer';
 import './index.css'
 
 

@@ -14,7 +14,7 @@ const Home = ()=>{
         </div>
         <div className="panel-info">
             <div className="info">
-                <img className="info-img" src={Images.cakeIcing}></img>
+                <img className="info-img" src={Images.cakeIcing} alt='cake icing'></img>
                 <h1>Cakes</h1>
                 <p className="text"><LoremIpsum p={1}/></p>
                 <button className="btn" onClick={()=>{
@@ -22,7 +22,7 @@ const Home = ()=>{
                 }}>Products</button>
             </div>
             <div className="info">
-                <img className="info-img" src={Images.cupcake}></img>
+                <img className="info-img" src={Images.cupcake} alt='Cupcake'></img>
                 <h1>Cupcake</h1>
                 <p className="text"><LoremIpsum p={1}/></p>
                 <button className="btn">Contact Us</button>
