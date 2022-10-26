@@ -56,3 +56,9 @@ h1{
     border-radius: 2rem;
     background-color:rgb(138, 138, 138); ;
 }
+
+.title{
+    margin-top:2rem ;
+    position: absolute;
+    z-index: 2;
+}
